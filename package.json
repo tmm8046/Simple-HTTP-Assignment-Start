@@ -1,0 +1,30 @@
+{
+  "name": "simple-http-assignment-start-master",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.8.0",
+    "npm": "8.18.0"
+  },
+  "description": "HW 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Test complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmm8046/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Tommy Murray Jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmm8046/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/tmm8046/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
